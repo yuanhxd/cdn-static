@@ -3808,6 +3808,7 @@ a {
 }
 
 .menu {
+    margin-top: 0;
     margin: 0 auto;
     width: 95%;
     max-width: 1280px;
@@ -3845,7 +3846,7 @@ a {
     position: relative;
     box-sizing: border-box;
     padding: 0 12px;
-    line-height: inherit;
+    line-height: initial;
     transition-property: background-color;
     transition-duration: .2s;
     transition-timing-function: ease-in-out;
@@ -3853,6 +3854,7 @@ a {
     color: #fff;
     font-size: 15px;
     border-bottom: none;
+    margin-top: 18px
 }
 
 @media (max-width: 991px) {
@@ -3981,7 +3983,6 @@ a {
     height: 100px;
     border-radius: 100%;
     border: 2px dashed #fff;
-    object-fit: cover;
     padding: 5px
 }
 
@@ -7308,7 +7309,14 @@ body {
     display: inline !important;
 }
 
+.menu .menu-item.nightModeBtn {
+    float: right;
+    font-size: 19px;
+    width: 18px;
+    margin: -2px 0 0 20px;
+}
+
 @font-face {
     font-family: Candyshop;
-    src: url(../font/Candyshop.otf)
+    src: url(https://cdn.jsdelivr.net/gh/cetr/halo-theme-sagiri@sagiri-cdn/font/Candyshop.otf)
 }
